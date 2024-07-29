@@ -5,7 +5,7 @@
 data "hcp_vault_secrets_app" "aws_app" {
   app_name = "terraform"
 # Limit the scope to only one or more secrets in the app
-  secret_name = “aws-region”
+  secret_name = "aws-region"
 }
 
 # Replace your existing secret references with
