@@ -14,6 +14,10 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 5.42.0"
     }
+  hcp = {
+      source = "hashicorp/hcp"
+      version = "0.94.1"
+    }
   }
   required_version = "~> 1.2"
 }
