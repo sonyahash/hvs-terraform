@@ -4,7 +4,7 @@
 
 
 provider "aws" {
-  region  = data.hcp-vault-secrets_app.aws_app.region
+  region  = "us-west-2"
 }
 
 
